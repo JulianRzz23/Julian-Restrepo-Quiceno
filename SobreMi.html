@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portafolio - Julian Restrepo Quiceno</title>
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <style>
+
+    body{
+      background:#f4f4f4;
+    }
+
+    .hero{
+      background: linear-gradient(135deg,#0d6efd,#6610f2);
+      color:white;
+      padding:60px 20px;
+      text-align:center;
+    }
+
+    .perfil{
+      width:180px;
+      height:180px;
+      object-fit:cover;
+      border-radius:50%;
+      border:5px solid white;
+      margin-top:20px;
+    }
+
+    .contenido{
+      background:white;
+      padding:40px;
+      border-radius:20px;
+      box-shadow:0px 0px 20px rgba(0,0,0,0.1);
+    }
+
+    .card{
+      border:none;
+      border-radius:20px;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <h1 class="display-4 fw-bold">
+      Julian Restrepo Quiceno
+    </h1>
+
+    <p class="lead">
+      Desarrollo Web • Tecnología • Software
+    </p>
+
+    <img
+      src="foto.jpeg"
+      alt="Foto"
+      class="perfil"
+    >
+
+  </section>
+
+  <!-- CONTENIDO -->
+  <div class="container mt-5 mb-5">
+
+    <div class="contenido">
+
+      <!-- BOTONES -->
+      <ul class="nav nav-pills nav-justified mb-4">
+
+        <li class="nav-item">
+          <button
+            class="nav-link active"
+            data-bs-toggle="pill"
+            data-bs-target="#acerca"
+          >
+            Acerca de mí
+          </button>
+        </li>
+
+        <li class="nav-item">
+          <button
+            class="nav-link"
+            data-bs-toggle="pill"
+            data-bs-target="#redes"
+          >
+            Mis Redes
+          </button>
+        </li>
+
+        <li class="nav-item">
+          <button
+            class="nav-link"
+            data-bs-toggle="pill"
+            data-bs-target="#trabajos"
+          >
+            Mis Trabajos
+          </button>
+        </li>
+
+      </ul>
+
+      <!-- INFORMACION -->
+      <div class="tab-content">
+
+        <!-- ACERCA DE MI -->
+        <div
+          class="tab-pane fade show active"
+          id="acerca"
+        >
+
+          <h2 class="mb-3">
+            👨‍💻 Acerca de mí
+          </h2>
+
+          <p class="lead">
+            Soy Julian Restrepo Quiceno,
+            un estudiante de la Institución Educativa Pascual Bravo,
+            apasionado por el desarrollo de software y las nuevas tecnologías.
+          </p>
+
+          <p>
+            Me gusta aprender sobre programación,
+            diseño web y crear proyectos modernos
+            utilizando HTML, CSS, JavaScript y Bootstrap.
+          </p>
+
+        </div>
+
+        <!-- REDES -->
+        <div
+          class="tab-pane fade"
+          id="redes"
+        >
+
+          <h2 class="mb-3">
+            📱 Mis Redes
+          </h2>
+
+          <p>
+            Puedes encontrarme en:
+          </p>
+
+          <div class="d-grid gap-3">
+
+            <!-- INSTAGRAM -->
+            <a
+              href="https://www.instagram.com/juli4nrzz/"
+              target="_blank"
+              class="btn btn-primary"
+            >
+              Instagram
+            </a>
+
+            <!-- GITHUB -->
+            <a
+              href="https://github.com/JulianRzz23?tab=repositories"
+              target="_blank"
+              class="btn btn-dark"
+            >
+              GitHub
+            </a>
+
+            <!-- WHATSAPP -->
+            <a
+              href="https://wa.me/573002059247?text=Hola%20Julian,%20vi%20tu%20portafolio"
+              target="_blank"
+              class="btn btn-success"
+            >
+              WhatsApp
+            </a>
+
+            <!-- GMAIL -->
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=julianezreal@gmail.com&su=Contacto%20desde%20tu%20pagina&body=Hola%20Julian,%20vi%20tu%20portafolio"
+              target="_blank"
+              class="btn btn-danger"
+            >
+              Gmail
+            </a>
+
+          </div>
+
+        </div>
+
+        <!-- TRABAJOS -->
+        <div
+          class="tab-pane fade"
+          id="trabajos"
+        >
+
+          <h2 class="mb-3">
+            🚀 Mis Trabajos
+          </h2>
+
+          <!-- PROYECTO WEB -->
+          <div class="card p-4 shadow">
+
+            <h4>
+              Página Web Personal
+            </h4>
+
+            <p>
+              Proyecto desarrollado con Bootstrap
+              y diseño responsive.
+            </p>
+
+            <a
+              href="Codigo.html"
+              target="_blank"
+              class="btn btn-outline-primary"
+            >
+              Ver Proyecto
+            </a>
+
+          </div>
+
+          <!-- GITHUB -->
+          <div class="card p-4 shadow mt-4">
+
+            <h4>
+              GitHub
+            </h4>
+
+            <p>
+              Repositorios y proyectos de programación.
+            </p>
+
+            <a
+              href="https://github.com/JulianRzz23?tab=repositories"
+              target="_blank"
+              class="btn btn-dark"
+            >
+              Ver GitHub
+            </a>
+
+          </div>
+
+          <!-- VIDEO 1 -->
+          <div class="card p-4 shadow mt-4">
+
+            <h4>
+              Proyecto en YouTube #1
+            </h4>
+
+            <p>
+              Video demostrativo de uno de mis proyectos.
+            </p>
+
+            <div class="ratio ratio-16x9 mt-3">
+
+              <iframe
+                src="https://www.youtube.com/embed/KfW1chKw6BE"
+                title="Proyecto 1"
+                allowfullscreen>
+              </iframe>
+
+            </div>
+
+            <a
+              href="https://youtu.be/KfW1chKw6BE"
+              target="_blank"
+              class="btn btn-danger mt-3"
+            >
+              Ver en YouTube
+            </a>
+
+          </div>
+
+          <!-- VIDEO 2 -->
+          <div class="card p-4 shadow mt-4">
+
+            <h4>
+              Proyecto en YouTube #2
+            </h4>
+
+            <p>
+              Segundo video de proyecto o demostración.
+            </p>
+
+            <div class="ratio ratio-16x9 mt-3">
+
+              <iframe
+                src="https://www.youtube.com/embed/7ukpKr4wk8M"
+                title="Proyecto 2"
+                allowfullscreen>
+              </iframe>
+
+            </div>
+
+            <a
+              href="https://youtu.be/7ukpKr4wk8M"
+              target="_blank"
+              class="btn btn-danger mt-3"
+            >
+              Ver en YouTube
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- BOTON -->
+      <div class="text-center mt-5">
+
+        <a href="index.html" class="btn btn-secondary btn-lg">
+          Volver al Inicio
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+  </script>
+
+</body>
+
+</html>
